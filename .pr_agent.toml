@@ -1,7 +1,8 @@
 [pr_reviewer]
 persistent_comment=true
 extra_instructions="""\
-- Analyze the changes in the pull request automatically using AI, and output a comment that not only provides a general review but also highlights edge cases in an interesting and engaging way.
+(1) Include edge cases in your PRs
+(2) Write comments in a witty and snappy tone
 """
 [config]
 response_language="ja-JP"
