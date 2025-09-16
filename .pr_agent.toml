@@ -1,11 +1,7 @@
 [pr_reviewer]
 persistent_comment=true
-[pr_custom_prompt]
-prompt="""\
-The code suggestions should focus only on the following:
-- look for edge cases when implementing a new function
-- make sure every variable has a meaningful name
-- make sure the code is efficient
+extra_instructions="""\
+- Analyze the changes in the pull request automatically using AI, and output a comment that not only provides a general review but also highlights edge cases in an interesting and engaging way.
 """
 [config]
 response_language="ja-JP"
